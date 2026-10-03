@@ -10,8 +10,8 @@ from typing import Optional, List
 import datetime
 
 app = FastAPI(
-    title="Rakesh Pal Portfolio AI API",
-    description="Backend API powering Rakesh Pal's AI Portfolio and Recruiter Assistant",
+    title=" Shubham Kumar Burman Portfolio AI API",
+    description="Backend API powering Shubham Burman's AI Portfolio and Recruiter Assistant",
     version="1.0.0"
 )
 
@@ -26,61 +26,108 @@ app.add_middleware(
 
 # Profile data matching Rakesh's Resume
 PROFILE_DATA = {
-    "name": "Rakesh Pal",
-    "title": "AI/ML Engineer",
-    "specialization": "Artificial Intelligence & Machine Learning",
-    "location": "Kolkata, West Bengal, India",
+    "name": "Shubham Burman",
+    "title": "Aspiring Full Stack Developer",
+    "specialization": "Full Stack Web Development (MERN Stack)",
+    "location": "Asansol, West Bengal, India",
     "contact": {
-        "email": "rakeshpal932004@gmail.com",
-        "phone": "+91-7501678411",
+        "email": "shubhamkumarburman07@gmail.com",
+        "phone": "+91-6294846716",
         "github": "https://github.com",
         "linkedin": "https://linkedin.com"
     },
     "education": {
-        "degree": "B.Tech in Computer Science & Engineering",
-        "stream": "Artificial Intelligence & Machine Learning",
-        "institution": "Brainware University, Kolkata",
+        "degree": "B.Tech in Computer Science & Engineering (Information Technology)",
+          "stream": "Information Technology",
+        "institution": "JIS College of Engineering, Kalyani",
         "duration": "2023 – 2027",
-        "cgpa": "8.07 / 10 (through 6th Semester)"
+        "cgpa": "7.30 / 10 (through 6th Semester)"
     },
-    "skills": {
-        "programming": ["Python", "JavaScript"],
-        "ai_ml": ["Machine Learning", "NLP", "Generative AI", "Computer Vision"],
-        "data_science": ["Pandas", "NumPy", "Scikit-learn"],
-        "backend": ["FastAPI", "REST APIs", "Streamlit"],
-        "tools": ["Git", "GitHub", "Docker", "VS Code"]
+  "skills": {
+        "programming": ["Python", "Java", "C", "JavaScript", "SQL"],
+        "frontend": ["HTML", "CSS", "Tailwind CSS", "React.js"],
+        "backend": ["Node.js", "Express.js", "REST APIs", "JWT"],
+        "database": ["MongoDB", "Mongoose"],
+        "ai_ml": ["Machine Learning", "NLP", "Generative AI", "Google Gemini AI"],
+        "data_science": ["Scikit-learn", "NLTK", "Matplotlib", "TF-IDF"],
+        "tools": ["Git", "GitHub", "VS Code", "Postman"]
     },
     "projects": [
         {
-            "id": "chatbot",
-            "name": "Rule-Based Chatbot",
-            "tech": "Python, Streamlit, NLP",
-            "summary": "Interactive rule-based conversational logic with session-based memory.",
-            "file": "rule_based_chatbot.py"
+            "id": "aiinterview",
+            "name": "AI Interview Agent",
+            "tech": "React.js, Node.js, Express.js, MongoDB, Multi-Agent LLMs",
+            "summary": "AI-powered interview agent that conducts, analyzes and evaluates technical interviews in real-time with intelligent feedback and performance insights."
         },
         {
-            "id": "facedetection",
-            "name": "Face Detection AI",
-            "tech": "Python, OpenCV, Computer Vision",
-            "summary": "Real-time face detection across images and video feeds with coordinate tracking."
+            "id": "aischoolhouse",
+            "name": "The AI Schoolhouse",
+            "tech": "React.js, Tailwind CSS, Node.js, Express.js, MongoDB, JWT, Google Gemini AI",
+            "summary": "AI-powered learning platform where students upload PDF/DOCX/TXT textbooks to get AI summaries, ask textbook-based questions, take quizzes, create flashcards and track study progress."
         },
         {
-            "id": "tictactoe",
-            "name": "Tic-Tac-Toe AI",
-            "tech": "Python, Minimax Algorithm, Game Logic",
-            "summary": "Unbeatable AI opponent powered by recursive game state search."
+            "id": "resumeanalyzer",
+            "name": "AI Resume Analyzer",
+            "tech": "Python, Machine Learning, NLTK, scikit-learn, TF-IDF, Google Gemini AI",
+            "summary": "NLP-based system that matches resumes against job descriptions using TF-IDF and Cosine Similarity, detects missing skills and generates improvement suggestions."
+        },
+        {
+            "id": "razorpayclone",
+            "name": "Razorpay Clone",
+            "tech": "HTML, Tailwind CSS",
+            "summary": "Responsive frontend replica of the Razorpay landing page with modern UI components."
         }
     ],
     "certifications": [
         {
-            "title": "FLY SMART — AI Drone Innovation Camp 2026",
-            "organization": "Brainware University",
+            "title": "NPTEL - Programming in Java",
+            "organization": "IIT Kharagpur",
+            "year": 2025
+        },
+        {
+            "title": "NPTEL - E-Business",
+            "organization": "IIT Kharagpur",
+            "year": 2025
+        },
+        {
+            "title": "NPTEL - Introduction to Machine Learning",
+            "organization": "IIT Madras",
+            "year": 2026
+        },
+        {
+            "title": "AI-ML Virtual Internship",
+            "organization": "EduSkills Foundation",
+            "year": 2026
+        },
+        {
+            "title": "Python Full Stack Developer Virtual Internship",
+            "organization": "EduSkills Foundation",
+            "year": 2026
+        },
+        {
+            "title": "Mobile App Development with React Native",
+            "organization": "EduSkills Academy",
+            "year": 2026
+        },
+        {
+            "title": "Java Full Stack Development with Project Virtual Internship",
+            "organization": "EduSkills Academy",
+            "year": 2026
+        },
+        {
+            "title": "Android Developer Virtual Internship",
+            "organization": "EduSkills Foundation",
+            "year": 2026
+        },
+        {
+            "title": "Full Stack Development (MERN) Training - Grade A",
+            "organization": "Ardent Computech Pvt. Ltd. (JIS College of Engineering)",
             "year": 2026
         }
     ],
     "career_target": {
-        "role": "AI/ML Engineer — Fresher / Junior",
-        "focus": ["Machine Learning", "Generative AI", "NLP", "Computer Vision", "Python", "FastAPI"]
+        "role": "Full Stack Developer — Fresher / Junior",
+        "focus": ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "REST APIs", "Python", "Generative AI"]
     }
 }
 
