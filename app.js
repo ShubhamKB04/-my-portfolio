@@ -286,8 +286,12 @@
  */
 
 // Backend URL. Change this to your hosted backend URL after deploying.
-const API_BASE = 'http://127.0.0.1:8000';
-const GITHUB_URL = 'https://github.com/ShubhamKB04';
+// const API_BASE = 'http://127.0.0.1:8000';
+// const GITHUB_URL = 'https://github.com/ShubhamKB04';
+
+const API_BASE = ['localhost', '127.0.0.1'].includes(window.location.hostname)
+  ? 'http://127.0.0.1:8000'
+  : 'https://my-portfolio-one-liart-13.vercel.app';
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Dynamic Typing Effect
