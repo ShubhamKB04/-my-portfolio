@@ -31,7 +31,7 @@ d:\Deployment\shubham -Portfolio\
 ### 1. Open the Project Folder
 1. Open **Visual Studio Code (VS Code)**.
 2. Click **File** > **Open Folder...** (or press `Ctrl + K`, then `Ctrl + O`).
-3. Select `D:\Deployment\Rakesh-Portfolio` and click **Select Folder**.
+3. Select `D:\Deployment\shubham-Portfolio` and click **Select Folder**.
 4. You will see all your files on the left sidebar (**Explorer**).
 
 ### 2. How to Create New Files in VS Code
